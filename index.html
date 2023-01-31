@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm: Secure &amp; Fast UPI Payments, Recharge Mobile &amp; Pay Bills</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+   />
+        <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            mo: "300px",
+            // => @media (min-width: 640px) { ... }
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+            lg: "990px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+          },
+
+          extend: {
+            colors: {
+              skyblue: " #00baf2",
+              darkblue: "#0f4a8a",
+              lightgrey: "#f5f7fa",
+              lightergrey: "#f5f7fa",
+              hoversky: "#00baf2",
+              signcolor: '#00BAF2',
+              learn: '#002970',
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body>
+  <nav class="flex justify-between text-center h-[70px]">
+    <label class="flex">
+      <i class="fa-solid fa-bars text-[27px] mx-2  mo:mx-4 mt-6 block lg:hidden" ></i>
+        <img class="w-28 mo:w-32 lg:w-40 lg:ml-5" src="./assets/paytm_logo.png" alt="">
+    </label>
+
+<!--  -->
+<div class="flex hidden lg:block mt-4 ">
+  <ul class="flex justify-center text-center text-lg xl:text-xl xl:space-x-5 font-medium xl:font-semibold flex-col md:flex-row ">
+    <li class="hover:bg-[#f9f9f9] p-2 ">Paytm For consumer</li>
+    <li class="hover:bg-[#f9f9f9] p-2">Paytm For Business</li>
+    <li class="hover:bg-[#f9f9f9] p-2">Investor Relations</li>
+    <li class="hover:bg-[#f9f9f9] p-2">Company</li>
+    <li class="hover:bg-[#f9f9f9] p-2">Career</li>
+  </ul>
+</div>
+
+    <div class="flex flex-row items-center justify-center gap-4  font-bold  mr-3 mt-2 mo:mr-5">
+      <button
+        type="button"
+         class=" flex items-center justify-between gap-1 lg:gap-2 pl-4 font-semibold rounded-full dark:bg-skyblue dark:text-white hover:bg-darkblue bg-skyblue"
+       >  
+        Log In
+        <img class="w-7 mo:w-8 sm:w-9 lg:w-10" src="assets/nav-btn-pic.svg" alt="login-logo" />
+      </button>
+    </div>
+  </nav>
+</body>
+</html>
