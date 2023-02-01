@@ -50,8 +50,8 @@
     </label>
 
 <!--  -->
-<div class="flex hidden lg:block mt-4 ">
-  <ul class="flex justify-center text-center text-lg xl:text-xl xl:space-x-5 font-medium xl:font-semibold flex-col md:flex-row ">
+<div class=" lg:flex   lg:block   lg:static absolute left-0 lg:left-auto w-1/2 lg:w-auto h-screen lg:h-auto w-full Lg:w-auto">
+  <ul class=" h-full w-full lg:h-auto lg:w-auto  mt-[65px] lg:mt-4 bg-blue-300 lg:bg-white flex justify-center  text-center text-lg xl:text-xl xl:space-x-5 font-medium xl:font-semibold flex-col lg:flex-row  lg:opacity-100 opacity-0 transition-all ease-in duration-500">
     <li class="hover:bg-[#f9f9f9] p-2 ">Paytm For consumer</li>
     <li class="hover:bg-[#f9f9f9] p-2">Paytm For Business</li>
     <li class="hover:bg-[#f9f9f9] p-2">Investor Relations</li>
@@ -70,5 +70,77 @@
       </button>
     </div>
   </nav>
+
+  <!-- no wallet kyc required -->
+  <div class="flex items-center justify-center h-7 bg-gray-200 py-7 mo:py-6 px-3 mt-5">
+    <p class="text-center">
+      <span class="font-normal mo:font-semibold"> No Wallet KYC Required </span> 😊 to pay
+      using UPI on Paytm.
+      <span class=" font-normal mo:font-semibold"> Learn more.</span>
+    </p>
+  </div>
+
+  <!-- section 1 -->
+  <section
+  class="flex flex-col-reverse md:flex-row items-center justify-between md:gap-10 pt-8 px-3 md:pt-[100px] xl:pt-[120px] md:pl-[80px] lg:pl-[100px] xl:pl-[128px] pb-16"
+>
+  <div
+    class="flex flex-col items-center md:items-start justify-center my-4"
+  >
+    <img class="w-20 mb-10" src="assets/upi-pic.png" alt="tm-img" />
+    <h1
+      class="text-xl md:text-[40px] lg:text-[48px] xl:text-[54px] text-center md:text-left md:leading-[2.8rem] lg:leading-[3.5rem] font-bold w-[300px] md:w-[375px] lg:w-[475px]"
+    >
+      India's Most-loved Payments App
+    </h1>
+    <p
+      class="md:mb-8 text-10 text-center md:text-left my-4 md:text-[16px] lg:text-[20px] md:w-[400px] lg:w-[475px]"
+    >
+      Recharge & pay bills, book flights & movie tickets, open a savings
+      account, invest in stocks & mutual funds, and do a lot more.
+    </p>
+    <button
+      type="button"
+      class="text-[16px] px-3 py-1 mt-4 flex items-center justify-center gap-2 md:px-8 md:py-3 font-semibold rounded-full dark:bg-black dark:text-white text-white hover:text-black border border-transparent hover:border hover:border-black bg-black hover:bg-white"
+    >
+      Download Paytm App
+
+      <svg
+        class="fill-current"
+        width="14"
+        height="16"
+        viewBox="0 0 14 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"
+        ></path>
+      </svg>
+
+      <svg
+        class="fill-current text-white"
+        width="14"
+        height="16"
+        viewBox="0 0 14 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"
+        ></path>
+      </svg>
+    </button>
+  </div>
+  <div>
+    <img
+      class="w-[280px] mo:w-[300px] md:w-[350px] lg:w-[528px]"
+      src="assets/paytm-mobile.png"
+      alt="ptm-mob-img"
+    />
+  </div>
+</section>
 </body>
 </html>
